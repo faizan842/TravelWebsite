@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/Web Page/Project-3/1.jpg");
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: 100% 12%;
+}
+.bar{
+    display: flex;
+    font-size: 140%;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: -1%;
+}
+.bar li{
+    padding: 2%;
+    list-style: none;
+}
+.bar li:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.des{
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 5%;
+    margin-top: 35%;
+}
+.des h1{
+    margin-top: 8%;
+    font-size: 250%;
+}
+.des h2{
+    font-size: 200%;
+}
+.des p{
+    font-size: 120%;
+}
+.column {
+    float: left;
+    width: 45%;
+    padding: 2px;
+    margin-left: 3%;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.container{
+    margin-left: 2%;
+    margin-right: 52%;
+    margin-top: -20%;
+}
+.container h1{
+    font-size: 250%;
+    color: rgb(37, 88, 110);
+}
+.container p{
+    margin-top: 5%;
+    font-size: 130%;
+}
+.container2{
+    margin-left: 52%;
+    margin-right: 2%;
+    margin-top: -20%;
+}
+.container2 h1{
+    font-size: 250%;
+    color: rgb(37, 88, 110);
+}
+.container2 p{
+    margin-top: 5%;
+    font-size: 130%;
+}
+.img{
+    margin-top: 5%;
+}
+.container3{
+    margin-left: 2%;
+    margin-right: 52%;
+    margin-top: 1%;
+}
+.container3 h1{
+    font-size: 250%;
+    color: rgb(37, 88, 110);
+}
+.container3 p{
+    margin-top: 5%;
+    font-size: 130%;
+}
+.container4{
+    margin-left: 52%;
+    margin-right: 2%;
+    margin-top: -20%;
+    margin-bottom: 10%;
+}
+.container4 h1{
+    font-size: 250%;
+    color: rgb(37, 88, 110);
+}
+.container4 p{
+    margin-top: 5%;
+    font-size: 130%;
+}
+.section{
+    
+}
+.section h1{
+    margin-left: 1%;
+    color: rgb(37, 88, 110);
+}
+.section p{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.section .column{
+    float: left;
+    width: 30%;
+    padding: 2px;
+}
+.section2{
+    margin-top: 25%;
+}
+.section2 h1{
+    margin-left: 2%;
+    color: rgb(37, 88, 110);
+}
+.section2 img{
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+.section3{
+    margin-top: 5%;
+
+}
+.section3 h1{
+    color: rgb(37, 88, 110);
+    margin-bottom: 2%;
+}
+.section3 img{
+    
+}
+.section4{
+    margin-top: 5%;
+    font-size: 150%;
+}
+.section4{
+    
+}
+.section4 h1{
+    margin-bottom: 1%;
+    font-size: 120%;
+}
+a:link {
+    color: rgb(58, 52, 52);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(58, 52, 52);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 0, 0);
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+
+.footer{
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    font-size: 150%;
+    margin-top: 5%;
+}
